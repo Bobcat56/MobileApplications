@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mitmOption1"
+        android:title="Option 1" />
+    <item android:title="Sub Menu">
+        <menu>
+            <item
+                android:id="@+id/mitmOption2"
+                android:title="Option 2" />
+        </menu>
+    </item>
+</menu>
